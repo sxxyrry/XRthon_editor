@@ -1,0 +1,51 @@
+init:XRthon_test
+
+# This is comment
+
+import:math
+
+print:Hello world.
+a=This is "a"
+print:'a'
+
+b=input:This is "b" input：
+print:'b'
+
+c={This,is,"c"}
+print:'c'
+
+d=math
+print:'d'
+
+del:math
+# del:__name__,__path__,__init__,__file__,__package__
+e=math
+print:'e'
+
+print:'__name__'
+print:'__path__'
+print:'__init__'
+print:'__file__'
+print:'__package__'
+
+# raise:a,NameError
+# raise:a,NameError,123
+
+def:test
+    print:This is a function(test)
+end
+
+for:2
+    print:This is a for loop
+    print:'i'
+    print:'ln'
+end
+
+if:True
+    print:This is a if statement
+end
+
+test:
+
+print:end
+return:
